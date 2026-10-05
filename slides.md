@@ -856,7 +856,7 @@ clicks: 3
   <div class="sy-grid">
     <div class="sy-left">
       <span class="eyebrow"><i></i>Síntese</span>
-      <h2 class="title">Pontos-<em>chave</em></h2>
+      <h2 class="title">Síntese dos<br><em>pontos-chave</em></h2>
       <ol class="take">
         <li><span class="numeral">1</span><p>A <b>axila</b> é a passagem: tudo o que vai para o membro superior cruza a pirâmide, em volta da a. axilar.</p></li>
         <li><span class="numeral">2</span><p>O <b>plexo</b> segue 5-3-6-3-5; os fascículos levam o nome da posição em relação à a. axilar.</p></li>

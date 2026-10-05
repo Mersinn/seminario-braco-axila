@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&display=swap');
 /* =========================================================
    BRAÇO & AXILA — sistema visual "Atlas editorial"
    Papel de prancha + convenção cromática de atlas:
@@ -119,7 +120,15 @@ h2.title {
   margin: 8px 0 0;
   color: var(--ink);
 }
-h2.title em, h1.display em { font-style: italic; color: var(--muscle); }
+h1.display em { font-style: italic; color: var(--muscle); }
+h2.title em {
+  font-family: 'Bricolage Grotesque', var(--f-sans);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.86em;
+  letter-spacing: -0.02em;
+  color: var(--muscle);
+}
 .lede {
   font-size: 17px;
   line-height: 1.5;
