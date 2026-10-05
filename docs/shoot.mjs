@@ -12,7 +12,7 @@ for (let i = 1; i < parts.length; i++) {
 }
 // slide 1 está no parts[1] (após headmatter) — ajustar: headmatter é parts[0]
 const out = 'shots'; fs.mkdirSync(out, { recursive: true });
-for (const f of fs.readdirSync(out)) fs.unlinkSync(out + '/' + f);
+fs.rmSync(out, { recursive: true, force: true }); fs.mkdirSync(out, { recursive: true });
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 const manifest = [];

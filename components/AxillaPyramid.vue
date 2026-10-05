@@ -55,9 +55,9 @@ const cls = k => ['face', `f-${k}`, active.value === k && 'on', props.step >= 1 
       <text x="236" y="128" text-anchor="middle" class="hid" :class="{ on: active === 'posterior' }">posterior</text>
     </g>
     <g :style="{ opacity: step >= 7 ? 1 : 0 }" class="cl">
-      <text x="300" y="98">a. · v. axilares</text>
-      <text x="300" y="111">+ plexo braquial</text>
-      <text x="58" y="250">linfonodos</text>
+      <text x="276" y="98">a. · v. axilares</text>
+      <text x="276" y="113">+ plexo braquial</text>
+      <text x="132" y="294">linfonodos</text>
     </g>
   </svg>
 </template>

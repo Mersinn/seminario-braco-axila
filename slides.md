@@ -39,7 +39,7 @@ lineNumbers: false
         <span class="chip"><i style="background:var(--nerve)"></i>nervo</span>
         <span class="chip"><i style="background:var(--muscle)"></i>músculo</span>
       </div>
-      <div class="authors rise d4 mono">Integrantes do grupo — editar aqui</div>
+      <div class="authors rise d4"><span>Emerson Freitas J. Neto</span><span>Maria Luisa Souza Carvalho</span><span>Bruna Pontes de Luna</span><span>Mateus Pereira de Alencar</span></div>
     </div>
     <div class="cover-fig rise d2">
       <img src="/img/p/biceps.png" class="fig" alt="Render 3D do músculo bíceps braquial" />
@@ -55,7 +55,7 @@ lineNumbers: false
 .cover-text { display: flex; flex-direction: column; gap: 16px; padding-left: 6px; }
 .cover .display { font-size: 112px; }
 .legend { display: flex; gap: 8px; flex-wrap: wrap; }
-.authors { font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+.authors { display: grid; grid-template-columns: auto auto; gap: 4px 28px; justify-content: start; font-size: 15px; font-weight: 500; color: var(--ink-2); margin-top: 8px; padding-top: 12px; border-top: 1px solid var(--hair); }
 .cover-fig { position: relative; height: 470px; background: var(--paper); isolation: isolate; }
 .cover-fig img { height: 100%; width: 100%; object-fit: contain; mix-blend-mode: multiply; }
 </style>
@@ -82,12 +82,12 @@ clicks: 1
           <div><span class="no">✕</span> Hipoestesia no dorso da mão, entre polegar e indicador</div>
         </div>
         <p class="q">Que estrutura foi lesada — e por que o <em>tríceps</em> continua funcionando?</p>
-        <span class="mono cap dim">Resposta no slide 14 · guarde a pergunta</span>
+        <span class="mono cap dim">Discussão no slide 14</span>
       </div>
     </div>
     <div class="route">
-      <span class="eyebrow"><i></i>Roteiro · proximal → distal</span>
-      <h2 class="title">Seguir o caminho<br>que <em>os nervos fazem</em></h2>
+      <span class="eyebrow"><i></i>Sequência da apresentação</span>
+      <h2 class="title">Roteiro do <em>seminário</em></h2>
       <ol class="stops" :class="{ show: $clicks >= 1 }">
         <li><b>03</b><span>O úmero como eixo e mapa</span></li>
         <li><b>04–05</b><span>Axila: limites, conteúdo e artéria axilar</span></li>
@@ -138,9 +138,9 @@ clicks: 4
   <div class="plate-head"><span class="num"><b>03</b> / 15 · Região braquial</span><span>Braço &amp; Axila</span></div>
   <div class="loc-grid">
     <div class="loc-text">
-      <span class="eyebrow"><i></i>Onde estamos</span>
-      <h2 class="title">Entre o <em>ombro</em><br>e o <em>cotovelo</em></h2>
-      <p class="lede">O braço tem um eixo ósseo, o <b>úmero</b>. Topografia é estudar a região <b>plano a plano</b>: o que está ao lado de quê?</p>
+      <span class="eyebrow"><i></i>Região braquial</span>
+      <h2 class="title">Região braquial:<br><em>limites e eixo ósseo</em></h2>
+      <p class="lede">Região entre o ombro e o cotovelo, com o <b>úmero</b> como eixo ósseo. A anatomia topográfica descreve as estruturas da região e suas <b>relações</b>, plano a plano.</p>
       <div class="strata">
         <div class="st s1"><b>Pele</b></div>
         <div class="st s2"><b>Tela subcutânea</b><span>vv. cefálica e basílica · nn. cutâneos</span></div>
@@ -203,8 +203,8 @@ clicks: 7
   <div class="plate-head"><span class="num"><b>04</b> / 15 · Axila</span><span>Braço &amp; Axila</span></div>
   <div class="ax-grid">
     <div class="ax-left">
-      <span class="eyebrow"><i></i>A porta do membro superior</span>
-      <h2 class="title">A axila é uma <em>pirâmide</em><br>de quatro paredes</h2>
+      <span class="eyebrow"><i></i>Fossa axilar</span>
+      <h2 class="title">Axila:<br><em>limites e conteúdo</em></h2>
       <div class="pyr-box"><AxillaPyramid :step="$clicks" /></div>
     </div>
     <div class="rows ax-rows">
@@ -255,9 +255,9 @@ clicks: 2
       <div class="fig-cap">Gray’s Anatomy (1918), fig. 523 · H. V. Carter · domínio público</div>
     </div></div>
     <div class="aa-right">
-      <span class="eyebrow"><i style="background:var(--art)"></i>1ª costela → redondo maior</span>
-      <h2 class="title" v-if="$clicks < 2">O peitoral menor divide<br>a artéria em <em>três partes</em></h2>
-      <h2 class="title" v-else>Por trás da axila,<br>os <em>espaços de passagem</em></h2>
+      <span class="eyebrow"><i style="background:var(--art)"></i>Vascularização da axila</span>
+      <h2 class="title" v-if="$clicks < 2">Artéria axilar:<br><em>partes e ramos</em></h2>
+      <h2 class="title" v-else>Espaço quadrangular<br>e <em>intervalo triangular</em></h2>
       <div class="parts" v-if="$clicks < 2" :class="{ show: $clicks >= 1 }">
         <div class="part"><span class="numeral">1</span><div><b>Medial</b> ao peitoral menor<span>a. torácica superior</span></div></div>
         <div class="part"><span class="numeral">2</span><div><b>Posterior</b> ao peitoral menor<span>a. toracoacromial · a. torácica lateral</span></div></div>
@@ -309,8 +309,8 @@ clicks: 5
   <div class="plate-head"><span class="num"><b>06</b> / 15 · Plexo braquial</span><span>Braço &amp; Axila</span></div>
   <div class="px-head">
     <div>
-      <span class="eyebrow"><i style="background:var(--nerve)"></i>Ramos anteriores de C5–T1</span>
-      <h2 class="title">Cinco raízes, três troncos, seis divisões,<br>três fascículos, <em>cinco ramos terminais</em></h2>
+      <span class="eyebrow"><i style="background:var(--nerve)"></i>Plexo braquial · C5–T1</span>
+      <h2 class="title">Plexo braquial:<br><em>organização</em></h2>
     </div>
     <div class="px-code mono">5 · 3 · 6 · 3 · 5</div>
   </div>
@@ -343,8 +343,8 @@ clicks: 1
   <div class="plate-head"><span class="num"><b>07</b> / 15 · Plexo braquial — ramos</span><span>Braço &amp; Axila</span></div>
   <div class="br-grid">
     <div class="br-left">
-      <span class="eyebrow"><i style="background:var(--nerve)"></i>Ramos colaterais e terminais por origem</span>
-      <h2 class="title">Cada nível dá seus <em>ramos</em></h2>
+      <span class="eyebrow"><i style="background:var(--nerve)"></i>Plexo braquial</span>
+      <h2 class="title">Ramos colaterais<br>e <em>terminais</em></h2>
       <div class="br-table">
         <div class="bt-row"><b>Raízes</b><div><span>N. dorsal da escápula <small>C5 · romboides, levantador da escápula</small></span><span>N. torácico longo <small>C5–C7 · serrátil anterior</small></span></div></div>
         <div class="bt-row"><b>Tronco sup.</b><div><span>N. supraescapular <small>C5–C6 · supra e infraespinal</small></span><span>N. para o subclávio</span></div></div>
@@ -429,11 +429,11 @@ clicks: 4
       <div class="fig-cap">Esquema próprio baseado em Moore (2019) e Netter (2019)</div>
     </div></div>
     <div class="xs-text">
-      <span class="eyebrow"><i></i>Fáscia · septos</span>
-      <h2 class="title" v-if="$clicks <= 1">A fáscia é<br>uma <em>manga</em></h2>
-      <h2 class="title" v-else-if="$clicks === 2">Septos ancoram<br>a <em>manga</em></h2>
-      <h2 class="title" v-else-if="$clicks === 3">Dois <em>compar­timentos</em></h2>
-      <h2 class="title" v-else>Cada um com<br>seu <em>nervo</em></h2>
+      <span class="eyebrow"><i></i>Corte transversal</span>
+      <h2 class="title" v-if="$clicks <= 1">Fáscia<br><em>braquial</em></h2>
+      <h2 class="title" v-else-if="$clicks === 2">Septos<br><em>intermusculares</em></h2>
+      <h2 class="title" v-else-if="$clicks === 3">Compartimentos<br><em>do braço</em></h2>
+      <h2 class="title" v-else>Feixes<br><em>neurovasculares</em></h2>
       <div class="xs-body" v-if="$clicks <= 1">
         <p>Fáscia muscular <b>profunda</b>, sob a pele e a tela subcutânea; envolve todo o braço.</p>
         <p>Contínua com as fáscias <b>deltóidea, peitoral, axilar</b> e do <b>antebraço</b>.</p>
@@ -500,8 +500,8 @@ clicks: 2
       <div class="fig-cap">Gray’s Anatomy (1918), fig. 574 · domínio público</div>
     </div></div>
     <div class="sb-right">
-      <span class="eyebrow"><i style="background:var(--vein)"></i>Os dois lados do bíceps</span>
-      <h2 class="title">Dois sulcos, duas veias —<br>e o <em>feixe principal</em> do lado medial</h2>
+      <span class="eyebrow"><i style="background:var(--vein)"></i>Região braquial anterior</span>
+      <h2 class="title">Sulcos bicipitais<br>e <em>veias superficiais</em></h2>
       <div class="sb-cols">
         <div class="sb-col" :class="{ on: $clicks === 1 }">
           <span class="mono cap">Sulco bicipital lateral</span>
@@ -550,7 +550,7 @@ clicks: 1
   <div class="ma-head">
     <div>
       <span class="eyebrow"><i style="background:var(--ant)"></i>Flexores · n. musculocutâneo (C5–C7)</span>
-      <h2 class="title">Três músculos, <em>um nervo</em></h2>
+      <h2 class="title">Músculos do compartimento <em>anterior</em></h2>
     </div>
   </div>
   <div class="ma-grid">
@@ -630,7 +630,7 @@ clicks: 1
     </div></div>
     <div class="mp-right">
       <span class="eyebrow"><i style="background:var(--post)"></i>Extensores · n. radial (C6–C8)</span>
-      <h2 class="title">Um músculo, três cabeças —<br>e um <em>sulco</em> entre elas</h2>
+      <h2 class="title">Músculos do compartimento<br><em>posterior</em></h2>
       <div class="rows" style="margin-top:12px">
         <div class="row"><b>Cab. longa</b><span><b>Tubérculo infraglenoidal</b> da escápula — única que cruza o ombro.</span></div>
         <div class="row"><b>Cab. lateral</b><span>Face posterior do úmero, <b>acima</b> do sulco do n. radial.</span></div>
@@ -682,8 +682,8 @@ clicks: 4
       <div class="fig-cap">Esquema próprio · tracejado = trajeto posterior</div>
     </div></div>
     <div class="ab-right">
-      <span class="eyebrow"><i style="background:var(--art)"></i>A artéria principal do braço</span>
-      <h2 class="title">Do redondo maior<br>até a <em>fossa cubital</em></h2>
+      <span class="eyebrow"><i style="background:var(--art)"></i>Vascularização do braço</span>
+      <h2 class="title">Artéria braquial<br>e <em>veias profundas</em></h2>
       <div class="rows" style="margin-top:12px">
         <div class="row" :class="{ on: $clicks === 1 }"><b>Trajeto</b><span>Começa na <b>margem inferior do redondo maior</b>; medial ao úmero, depois anterior. Superficial → <b>pulso e PA</b>.</span></div>
         <div class="row" :class="{ on: $clicks === 2 }"><b>Braquial profunda</b><span>1º e maior ramo; segue com o <span class="t-nerve">n. radial</span> no sulco do n. radial.</span></div>
@@ -727,35 +727,35 @@ clicks: 5
       <div class="fig-cap">Esquema próprio · ○ = perfura um septo/músculo · tracejado = posterior</div>
     </div></div>
     <div class="nb-right">
-      <span class="eyebrow"><i style="background:var(--nerve)"></i>Um nervo por vez</span>
+      <span class="eyebrow"><i style="background:var(--nerve)"></i>Inervação do braço</span>
       <div class="nb-panel" v-if="$clicks === 0">
-        <h2 class="title">Cinco nervos,<br>cinco <em>trajetos</em></h2>
+        <h2 class="title">Nervos do braço:<br><em>trajeto e relações</em></h2>
         <p class="lede">Para cada um: <b>de onde vem</b>, <b>que marco atravessa</b> e <b>o que inerva no braço</b>. Mediano e ulnar <b>não dão ramos no braço</b>.</p>
       </div>
       <div class="nb-panel" v-else-if="$clicks === 1">
         <span class="nb-orig mono">Fascículo lateral · C5–C7</span>
-        <h2 class="title">Musculocutâneo</h2>
+        <h2 class="title">Nervo musculocutâneo</h2>
         <ol class="steps"><li>Perfura o <b>coracobraquial</b></li><li>Desce entre <b>bíceps e braquial</b> — inerva os três</li><li>Emerge lateral ao tendão do bíceps como <b>n. cutâneo lateral do antebraço</b></li></ol>
       </div>
       <div class="nb-panel" v-else-if="$clicks === 2">
         <span class="nb-orig mono">Raízes lateral + medial · (C5) C6–T1</span>
-        <h2 class="title">Mediano</h2>
+        <h2 class="title">Nervo mediano</h2>
         <ol class="steps"><li>Começa <b>lateral</b> à a. braquial</li><li>No meio do braço <b>cruza a artéria</b> pela frente</li><li>Chega à fossa cubital <b>medial</b> à artéria · sem ramos no braço</li></ol>
       </div>
       <div class="nb-panel" v-else-if="$clicks === 3">
         <span class="nb-orig mono">Fascículo medial · (C7) C8–T1</span>
-        <h2 class="title">Ulnar</h2>
+        <h2 class="title">Nervo ulnar</h2>
         <ol class="steps"><li>Desce <b>medial</b> à a. braquial</li><li>No terço médio <b>perfura o septo intermuscular medial</b> com a a. colateral ulnar superior</li><li>Passa <b>atrás do epicôndilo medial</b>, no sulco do n. ulnar · sem ramos no braço</li></ol>
       </div>
       <div class="nb-panel" v-else-if="$clicks === 4">
         <span class="nb-orig mono">Fascículo posterior · C5–T1</span>
-        <h2 class="title">Radial</h2>
+        <h2 class="title">Nervo radial</h2>
         <ol class="steps"><li>Sai pelo <b>intervalo triangular</b> com a a. braquial profunda</li><li>Espirala no <b>sulco do n. radial</b>, entre as cabeças lateral e medial do tríceps</li><li><b>Perfura o septo lateral</b> e passa à frente do epicôndilo lateral → ramos superficial e profundo</li></ol>
         <p class="small" style="margin-top:6px">Os ramos para o tríceps saem <b>antes</b> do sulco.</p>
       </div>
       <div class="nb-panel" v-else>
         <span class="nb-orig mono">Fascículo posterior · C5–C6</span>
-        <h2 class="title">Axilar</h2>
+        <h2 class="title">Nervo axilar</h2>
         <ol class="steps"><li>Atravessa o <b>espaço quadrangular</b> com a a. circunflexa posterior do úmero</li><li>Contorna o <b>colo cirúrgico</b></li><li>Inerva <b>deltoide e redondo menor</b>; pele sobre o deltoide</li></ol>
       </div>
     </div>
@@ -768,7 +768,7 @@ clicks: 5
 .nb-right { display: flex; flex-direction: column; justify-content: center; gap: 10px; }
 .nb-panel { animation: rise .7s var(--ease-out) both; }
 .nb-orig { font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--nerve-ink); }
-.nb-panel .title { font-size: 52px; }
+.nb-panel .title { font-size: 48px; }
 .steps { list-style: none; counter-reset: s; padding: 0; margin: 14px 0 0; display: flex; flex-direction: column; }
 .steps li { counter-increment: s; display: block; position: relative; padding-left: 40px !important; padding: 9px 0; border-top: 1px solid var(--hair); font-size: 16.5px; line-height: 1.4; color: var(--ink-2); }
 .steps li:last-child { border-bottom: 1px solid var(--hair); }
@@ -855,8 +855,8 @@ clicks: 3
   <div class="plate-head"><span class="num"><b>15</b> / 15 · Síntese</span><span>Braço &amp; Axila</span></div>
   <div class="sy-grid">
     <div class="sy-left">
-      <span class="eyebrow"><i></i>Para levar</span>
-      <h2 class="title">Cinco frases que<br>organizam a <em>região</em></h2>
+      <span class="eyebrow"><i></i>Síntese</span>
+      <h2 class="title">Pontos-<em>chave</em></h2>
       <ol class="take">
         <li><span class="numeral">1</span><p>A <b>axila</b> é a passagem: tudo o que vai para o membro superior cruza a pirâmide, em volta da a. axilar.</p></li>
         <li><span class="numeral">2</span><p>O <b>plexo</b> segue 5-3-6-3-5; os fascículos levam o nome da posição em relação à a. axilar.</p></li>
@@ -866,7 +866,7 @@ clicks: 3
       </ol>
     </div>
     <div class="quiz">
-      <span class="mono cap">Quiz relâmpago</span>
+      <span class="mono cap">Revisão</span>
       <div class="qz"><p>Quem atravessa o espaço quadrangular junto do n. axilar?</p><span class="ans" :class="{ show: $clicks >= 1 }">A. circunflexa posterior do úmero</span></div>
       <div class="qz"><p>Que nervo perfura o m. coracobraquial?</p><span class="ans" :class="{ show: $clicks >= 2 }">N. musculocutâneo</span></div>
       <div class="qz"><p>Onde a a. axilar passa a se chamar braquial?</p><span class="ans" :class="{ show: $clicks >= 3 }">Margem inferior do m. redondo maior</span></div>
