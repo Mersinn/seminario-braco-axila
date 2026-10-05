@@ -1,0 +1,23 @@
+      <span class="eyebrow"><i></i>Fáscia · septos</span>
+      <h2 class="title" v-if="$clicks <= 1">A fáscia é<br>uma <em>manga</em></h2>
+      <h2 class="title" v-else-if="$clicks === 2">Septos ancoram<br>a <em>manga</em></h2>
+      <h2 class="title" v-else-if="$clicks === 3">Dois <em>compar­timentos</em></h2>
+      <h2 class="title" v-else>Cada um com<br>seu <em>nervo</em></h2>
+      <div class="xs-body" v-if="$clicks <= 1">
+        <p>Fáscia muscular <b>profunda</b>, sob a pele e a tela subcutânea; envolve todo o braço.</p>
+        <p>Contínua com as fáscias <b>deltóidea, peitoral, axilar</b> e do <b>antebraço</b>.</p>
+        <p class="muted">Veias superficiais e nervos cutâneos ficam <b>fora</b> dela.</p>
+      </div>
+      <div class="xs-body" v-else-if="$clicks === 2">
+        <p>Septos <b>medial</b> e <b>lateral</b>: da fáscia às <b>cristas supraepicondilares</b> do úmero.</p>
+        <p>O medial é perfurado pelo <span class="t-nerve">n. ulnar</span>; o lateral, pelo <span class="t-nerve">n. radial</span>.</p>
+      </div>
+      <div class="xs-body comp" v-else-if="$clicks === 3">
+        <div class="cp ant"><b>Anterior · flexor</b><span>Coracobraquial, bíceps, braquial</span><em>n. musculocutâneo</em></div>
+        <div class="cp post"><b>Posterior · extensor</b><span>Tríceps braquial</span><em>n. radial</em></div>
+        <p class="muted">Fáscia + septos + úmero delimitam os dois.</p>
+      </div>
+      <div class="xs-body" v-else>
+        <p>Feixe principal no lado <b>medial</b>: <span class="t-art">a. braquial</span>, <span class="t-vein">vv. braquiais</span> e <span class="t-nerve">n. mediano</span>.</p>
+        <p>O <span class="t-nerve">ulnar</span> já passou para trás do septo; o <span class="t-nerve">radial</span> está colado ao osso.</p>
+      </div>

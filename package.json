@@ -1,0 +1,19 @@
+{
+  "name": "seminario-braco-axila",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build slides.md --base /seminario-braco-axila/",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.15.2",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.60.0",
+    "sharp": "^0.35.5"
+  }
+}
