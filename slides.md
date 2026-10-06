@@ -705,12 +705,19 @@ clicks: 4
 </style>
 
 <!--
-ARTÉRIA BRAQUIAL (2 min).
-[1] Começa na margem inferior do redondo maior (continuação da axilar). Desce medial ao úmero e, no cotovelo, fica anterior a ele. É superficial no sulco bicipital medial — por isso é onde medimos a PA e palpamos o pulso. É a artéria mais lesada do membro superior em trauma.
-[2] A. braquial profunda: primeiro e maior ramo; acompanha o n. radial pelo sulco do n. radial (tracejado = atrás do osso) e termina como colateral média e colateral radial.
-[3] Colateral ulnar superior: acompanha o n. ulnar, atravessa o septo medial. Colateral ulnar inferior: acima do epicôndilo medial.
-[4] Termina na fossa cubital, na altura do colo do rádio, dividindo-se em radial e ulnar.
-Veias profundas: as vv. braquiais são satélites da artéria (duas, uma de cada lado) e se juntam à basílica para formar a v. axilar.
+Agora que já vimos os compartimentos e os músculos, vamos ver o que irriga e o que inerva o braço. Começo pela artéria braquial, que é a artéria principal da região.
+
+**[clique 1]** A artéria braquial é a continuação da artéria axilar. O limite entre as duas é a **margem inferior do músculo redondo maior**. No braço, ela desce medial ao úmero, dentro do sulco bicipital medial, e chega ao cotovelo já anterior ao osso.
+Por ser superficial nesse trajeto, é nela que palpamos o **pulso braquial** e aferimos a **pressão arterial**: o estetoscópio vai medial ao tendão do bíceps. É também onde comprimimos a artéria contra o úmero para conter uma hemorragia do membro.
+
+**[clique 2]** O primeiro e maior ramo é a **artéria braquial profunda**. Ela vai para trás junto com o nervo radial, passa pelo intervalo triangular e corre no **sulco do nervo radial**, colada ao osso. No esquema, o tracejado mostra esse trajeto posterior. Ela termina como artéria colateral média e artéria colateral radial.
+Guardem esta dupla: **nervo radial e braquial profunda andam juntos**. Isso vai importar no caso clínico.
+
+**[clique 3]** Depois vêm as colaterais ulnares. A **superior** acompanha o nervo ulnar e atravessa com ele o septo intermuscular medial. A **inferior** nasce um pouco acima do epicôndilo medial.
+
+**[clique 4]** A artéria braquial termina na **fossa cubital, na altura do colo do rádio**, dividindo-se em artéria radial e artéria ulnar.
+As veias profundas do braço são as **veias braquiais**: duas, satélites da artéria, uma de cada lado. Elas se juntam à basílica para formar a veia axilar.
+Por fim, as colaterais formam a **rede anastomótica do cotovelo**. Por isso, uma lesão da braquial abaixo da origem da braquial profunda costuma ser mais bem tolerada: existe circulação colateral.
 -->
 
 ---
@@ -776,12 +783,18 @@ clicks: 5
 </style>
 
 <!--
-NERVOS DO BRAÇO (3 min). Um por clique; o mapa apaga os outros.
-[1] Musculocutâneo: perfura o coracobraquial, desce entre bíceps e braquial inervando os três, e termina como n. cutâneo lateral do antebraço.
-[2] Mediano: lateral à artéria em cima, cruza na frente dela no meio do braço e chega medial na fossa cubital. Não dá ramos no braço.
-[3] Ulnar: medial à artéria; no terço médio fura o septo medial e passa para o compartimento posterior; atrás do epicôndilo medial. Também não dá ramos no braço.
-[4] Radial: intervalo triangular, sulco do n. radial entre as cabeças lateral e medial, fura o septo lateral e vai para a frente do epicôndilo lateral. Ponto-chave para o caso: os ramos para o tríceps saem ANTES de ele entrar no sulco.
-[5] Axilar: espaço quadrangular com a circunflexa posterior, contorna o colo cirúrgico, inerva deltoide e redondo menor.
+Cinco nervos passam pelo braço. Para cada um vou dizer três coisas: **de onde vem, que marco atravessa e o que inerva**. Um detalhe que costuma cair em prova: **o mediano e o ulnar não dão nenhum ramo no braço**.
+
+**[clique 1] Musculocutâneo.** Vem do fascículo lateral, de C5 a C7. O marco dele é **perfurar o músculo coracobraquial**, e é assim que a gente o identifica na peça. Depois desce entre o bíceps e o braquial, inervando os três músculos do compartimento anterior, e termina como **nervo cutâneo lateral do antebraço**.
+
+**[clique 2] Mediano.** Formado pelas raízes lateral e medial, que fazem o "M" do plexo. No braço, ele começa **lateral à artéria braquial**, **cruza pela frente dela no meio do braço** e chega à fossa cubital **medial à artéria**. Não dá ramos no braço.
+
+**[clique 3] Ulnar.** Vem do fascículo medial, C8 e T1. Desce medial à artéria e, no terço médio, **perfura o septo intermuscular medial** junto com a colateral ulnar superior, passando para o compartimento posterior. Depois passa **atrás do epicôndilo medial**, no sulco do nervo ulnar. É aquele ponto do cotovelo que dá choque quando a gente bate. Também não dá ramos no braço.
+
+**[clique 4] Radial.** Vem do fascículo posterior e recebe fibras de todas as raízes, de C5 a T1. Sai pelo intervalo triangular junto com a braquial profunda, **espirala no sulco do nervo radial**, entre as cabeças lateral e medial do tríceps, **perfura o septo intermuscular lateral** e passa à frente do epicôndilo lateral, onde se divide em ramo superficial e ramo profundo.
+O ponto mais importante: **os ramos para o tríceps saem antes de o nervo entrar no sulco**.
+
+**[clique 5] Axilar.** Também vem do fascículo posterior, C5 e C6. Atravessa o **espaço quadrangular** com a artéria circunflexa posterior do úmero e **contorna o colo cirúrgico**. Inerva o deltoide e o redondo menor, além da pele sobre o deltoide.
 -->
 
 ---
@@ -837,13 +850,24 @@ clicks: 5
 </style>
 
 <!--
-CORRELAÇÃO (3 min). Primeiro, fechar o caso: a fratura da diáfise lesa o n. radial no sulco do n. radial — mão caída e hipoestesia no dorso da mão. O tríceps está preservado porque os ramos para ele saem do radial antes do sulco (na axila e no braço proximal).
-Depois, os quatro pontos ósseos do slide 3, agora como pontos de risco:
-[1] Colo cirúrgico — n. axilar (fratura ou luxação anterior): abdução fraca, deltoide atrófico, anestesia na face lateral do ombro.
-[2] Diáfise — n. radial.
-[3] Supracondilar (típica de criança) — a. braquial e n. mediano: risco de isquemia e contratura de Volkmann.
-[4] Epicôndilo medial — n. ulnar.
-[5] Lesões do plexo: Erb (C5–C6, parto/queda com afastamento cabeça-ombro: "gorjeta do garçom"), Klumpke (C8–T1, tração do braço para cima: mão em garra, pode ter Horner) e lesão do n. torácico longo (escápula alada) no esvaziamento axilar.
+Agora dá para voltar ao caso do início. Motociclista, fratura no terço médio da diáfise do úmero. Ele estende o cotovelo, mas não estende o punho nem os dedos, e tem perda de sensibilidade no dorso da mão, entre o polegar e o indicador.
+
+A lesão é do **nervo radial no sulco do nervo radial**, e o quadro é a **mão caída**. O tríceps continua funcionando porque os ramos para ele saem **antes** do sulco, ainda na axila e no braço proximal. E a área sem sensibilidade é justamente o território do ramo superficial do radial.
+
+O caso mostra a ideia central da correlação: **o úmero carrega nervos**. Cada região do osso tem um nervo encostado nela.
+
+**[clique 1] Colo cirúrgico → nervo axilar.** Lesado em fratura do colo ou em luxação anterior do ombro. O paciente tem fraqueza para abduzir o braço, atrofia do deltoide e perda de sensibilidade na face lateral do ombro.
+
+**[clique 2] Diáfise → nervo radial.** É o nosso caso.
+
+**[clique 3] Região supracondilar → artéria braquial e nervo mediano.** É uma fratura típica de criança. O maior risco é a isquemia do antebraço, que pode evoluir para a **contratura isquêmica de Volkmann**. Por isso, em toda fratura supracondilar, a gente checa o pulso radial.
+
+**[clique 4] Epicôndilo medial → nervo ulnar.** Dá parestesia no quarto e no quinto dedos e fraqueza dos músculos intrínsecos da mão.
+
+**[clique 5]** Por fim, três lesões do plexo e da axila que fecham o raciocínio:
+- **Erb-Duchenne**, de C5 e C6: acontece quando cabeça e ombro são afastados com força, no parto ou numa queda. O braço fica aduzido e rodado medialmente, com o cotovelo estendido e o antebraço pronado: a posição de "gorjeta do garçom".
+- **Klumpke**, de C8 e T1: acontece quando o braço é puxado para cima. Dá **mão em garra** e pode vir com síndrome de Horner, pela lesão de T1.
+- **Nervo torácico longo**: corre na parede medial da axila, sobre o serrátil anterior. Pode ser lesado no esvaziamento axilar e causa a **escápula alada**.
 -->
 
 ---
@@ -896,9 +920,23 @@ clicks: 3
 </style>
 
 <!--
-SÍNTESE (1,5 min). Ler as cinco frases — são o esqueleto do seminário. Depois o quiz: perguntar à turma e revelar a resposta a cada clique.
-[1] A. circunflexa posterior do úmero. [2] Musculocutâneo. [3] Margem inferior do redondo maior.
-Agradecer e abrir para perguntas.
+Para fechar, cinco ideias que resumem o seminário:
+
+1. A **axila é a passagem**: tudo o que vai para o membro superior atravessa essa pirâmide, em volta da artéria axilar.
+2. O **plexo braquial** segue a sequência 5-3-6-3-5, e os fascículos levam o nome da posição em relação à artéria axilar.
+3. **Fáscia, septos e úmero** formam dois compartimentos, cada um com seu nervo: musculocutâneo no anterior, radial no posterior.
+4. O **feixe neurovascular principal** corre no sulco bicipital medial; a veia cefálica, no lateral.
+5. E o **úmero carrega nervos**: colo com o axilar, diáfise com o radial, região supracondilar com o mediano, epicôndilo medial com o ulnar.
+
+Agora, três perguntas rápidas para a turma. *(Faça a pergunta, espere alguém responder e só então clique.)*
+
+**[clique 1]** Quem atravessa o espaço quadrangular junto com o nervo axilar? → **A artéria circunflexa posterior do úmero.**
+
+**[clique 2]** Que nervo perfura o músculo coracobraquial? → **O nervo musculocutâneo.**
+
+**[clique 3]** Em que ponto a artéria axilar passa a se chamar braquial? → **Na margem inferior do músculo redondo maior.**
+
+Obrigado pela atenção. Ficamos abertos a perguntas.
 -->
 
 ---

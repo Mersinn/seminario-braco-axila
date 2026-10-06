@@ -1,6 +1,6 @@
 # Seminário APM I — Braço & Axila
 
-**Apresentação online:** https://mersinn.github.io/seminario-braco-axila/  (tecla `p` = modo apresentador com notas)
+**Apresentação online:** https://mersinn.github.io/seminario-braco-axila/  ·  **Modo apresentador (com notas):** https://mersinn.github.io/seminario-braco-axila/#/presenter/1
 
 
 ## Arquivos
@@ -19,7 +19,7 @@ cd seminario-braco-axila
 npx slidev slides.md --open
 ```
 
-Teclas: `→`/espaço avança (inclusive os cliques), `o` mostra a visão geral, `p` abre o **modo apresentador** com as notas.
+Teclas: `→`/espaço avança (inclusive os cliques) e `o` mostra a visão geral. O **modo apresentador** (com notas) abre pelo ícone da barra inferior esquerda ou pelo endereço `/#/presenter/1`.
 A versão interativa carrega as fontes da internet; no PC da faculdade sem internet, use o PPTX.
 
 Antes de apresentar: na capa, troque “Integrantes do grupo — editar aqui” pelos nomes (no `slides.md`, linha com `class="authors"`). Depois regenere o PPTX/PDF:
